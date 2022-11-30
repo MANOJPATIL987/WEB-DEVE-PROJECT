@@ -2,30 +2,28 @@
 <html>
 
 <head>
-    <title>
-        login
-    </title>
-    <link rel="stylesheet" type="text/css" href="login.css" />
+
+  <title>Login Page</title>
+  <link rel="stylesheet" href="/login.css">
+
 </head>
 
 <body>
-    <h1> USER LOGIN </h1>
-    <form>
-        <div class="container">
-            <label>Username : </label>
-            <input type="text" placeholder="Enter Username" name="username" required>
-            <br><br>
-            <label>Password : </label>
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <br><br>
-            <input type="checkbox" checked="checked"> Remember me
-            <button type="submit" class="cancelbtn">Login</button>
-            <br><br>
-            <button type="button" class="cancelbtn"> Cancel</button>
-           <a href="#"> Forgot password? </a>
-        </div>
-    </form>
+  <div id="bg"></div>
+
+  <form>
+    <div class="form-field">
+      <input type="email" placeholder="Email / Username" required />
+    </div>
+
+    <div class="form-field">
+      <input type="password" placeholder="Password" required />
+    </div>
+
+    <div class="form-field">
+      <button class="btn" type="submit">Log in</button>
+    </div>
+  </form>
 </body>
 
 </html>
-
